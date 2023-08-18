@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: rgb(214, 226, 240);
+}
+
+.component {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 2px 5px 10px 2px rgba(123, 135, 157, 0.2);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 25rem;
+  height: 25rem;
+  margin: 1.5rem 1.5rem 1rem 1.5rem;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.bottom {
+  width: 25rem;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  padding: 0.5rem 0rem 1rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: rgb(31, 50, 81);
+  text-align: center;
+}
+
+.description {
+  color: rgb(123, 135, 157);
+  padding: 0 0rem 2rem 0rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
